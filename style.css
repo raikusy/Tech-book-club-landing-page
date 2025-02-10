@@ -1,4 +1,4 @@
-@layer reset,theme, base,header,main;
+@layer reset,theme, base,header,main,footer;
 @layer reset {
   *,
   *::before,
@@ -272,8 +272,6 @@
     align-items: center;
     gap: 5rem;
   }
-  .section-membership--heading {
-  }
   .section-membership-plans {
     display: flex;
     gap: 2.4rem;
@@ -338,6 +336,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    text-align: center;
   }
   .author {
     margin-top: 10px;
@@ -372,5 +371,21 @@
     padding: 2rem;
     background-color: #062630;
     border: 2px solid #fff;
+  }
+  .footer-coyright--container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1.2rem;
+  }
+  .footer__copyright {
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  .footer__social-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 5rem;
   }
 }
